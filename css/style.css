@@ -519,7 +519,6 @@ table.data-table tr:last-child td { border-bottom: none; }
   outline-offset: -2px;
 }
 .acc-trigger-text { display: flex; flex-direction: column; gap: 6px; }
-.acc-trigger .kicker { margin-bottom: 0; }
 .acc-heading {
   font-family: var(--serif);
   color: var(--navy);
