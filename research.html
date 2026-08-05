@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Research — ENSA</title>
-<meta name="description" content="A starter reading list on the economics of national security: procurement, deterrence, and geoeconomics, drawn from the top economics journals and NBER.">
+<meta name="description" content="A starter reading list on the economics of national security: procurement, deterrence, geoeconomics, and labor, drawn from the top economics journals and NBER.">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -52,17 +52,25 @@
       <div class="breadcrumb"><a href="index.html">Home</a> / Research</div>
       <span class="eyebrow">Research</span>
       <h1>A starter reading list.</h1>
-      <p>A sampling of recent and foundational scholarship on the economics of national security, organized around three recurring themes: procurement, deterrence, and geoeconomics. Papers are drawn from the top-five economics journals (<em>AER</em>, <em>Econometrica</em>, <em>JPE</em>, <em>QJE</em>, <em>ReStud</em>) and NBER working papers.</p>
+      <p>A sampling of recent and foundational scholarship on the economics of national security, organized around four recurring themes: procurement, deterrence, geoeconomics, and labor. Papers are drawn from the top-five economics journals (<em>AER</em>, <em>Econometrica</em>, <em>JPE</em>, <em>QJE</em>, <em>ReStud</em>) and NBER working papers. Click a theme to see its papers.</p>
     </div>
   </div>
 
   <section>
     <div class="container">
-      <div class="section-head">
-        <span class="kicker">Theme 01</span>
-        <h2>Procurement</h2>
-        <p>How the government buys what it needs to defend itself &mdash; contract design, competition, bureaucratic capacity, and the wartime allocation of production.</p>
-      </div>
+      <div class="accordion" id="research-accordion">
+
+      <div class="acc-item">
+      <button class="acc-trigger" type="button" aria-expanded="false" aria-controls="panel-procurement" id="trigger-procurement">
+        <span class="acc-trigger-text">
+          <span class="kicker">Theme 01</span>
+          <span class="acc-heading">Procurement</span>
+          <span class="acc-sub">How the government buys what it needs to defend itself &mdash; contract design, competition, bureaucratic capacity, and the wartime allocation of production.</span>
+        </span>
+        <span class="acc-chevron" aria-hidden="true">&#9662;</span>
+      </button>
+      <div class="acc-panel" id="panel-procurement" role="region" aria-labelledby="trigger-procurement" hidden>
+      <div class="acc-panel-inner">
 
       <div class="resource paper">
         <div class="icon">&#128196;</div>
@@ -119,16 +127,21 @@
         </div>
       </div>
 
-    </div>
-  </section>
-
-  <section class="alt">
-    <div class="container">
-      <div class="section-head">
-        <span class="kicker">Theme 02</span>
-        <h2>Deterrence</h2>
-        <p>When does military strength prevent conflict rather than provoke it? Formal models of arms races, strategic risk, and the returns to defense spending.</p>
       </div>
+      </div>
+      </div>
+
+      <div class="acc-item">
+      <button class="acc-trigger" type="button" aria-expanded="false" aria-controls="panel-deterrence" id="trigger-deterrence">
+        <span class="acc-trigger-text">
+          <span class="kicker">Theme 02</span>
+          <span class="acc-heading">Deterrence</span>
+          <span class="acc-sub">When does military strength prevent conflict rather than provoke it? Formal models of arms races, strategic risk, and the returns to defense spending.</span>
+        </span>
+        <span class="acc-chevron" aria-hidden="true">&#9662;</span>
+      </button>
+      <div class="acc-panel" id="panel-deterrence" role="region" aria-labelledby="trigger-deterrence" hidden>
+      <div class="acc-panel-inner">
 
       <div class="resource paper">
         <div class="icon">&#128196;</div>
@@ -184,16 +197,22 @@
           <a class="card-link" href="https://global.oup.com/academic/product/elements-of-deterrence-9780197754443" target="_blank" rel="noopener">Read about the book &rarr;</a>
         </div>
       </div>
-    </div>
-  </section>
 
-  <section>
-    <div class="container">
-      <div class="section-head">
-        <span class="kicker">Theme 03</span>
-        <h2>Geoeconomics</h2>
-        <p>The use of trade, finance, and economic interdependence as instruments of state power &mdash; sanctions, export controls, and the economics of coercion. The field traces to Hirschman&rsquo;s 1945 study of trade dependence, and its modern revival is still concentrated in NBER working papers, several under review at top-five journals.</p>
       </div>
+      </div>
+      </div>
+
+      <div class="acc-item">
+      <button class="acc-trigger" type="button" aria-expanded="false" aria-controls="panel-geoeconomics" id="trigger-geoeconomics">
+        <span class="acc-trigger-text">
+          <span class="kicker">Theme 03</span>
+          <span class="acc-heading">Geoeconomics</span>
+          <span class="acc-sub">The use of trade, finance, and economic interdependence as instruments of state power &mdash; sanctions, export controls, and the economics of coercion. The field traces to Hirschman&rsquo;s 1945 study of trade dependence, and its modern revival is still concentrated in NBER working papers, several under review at top-five journals.</span>
+        </span>
+        <span class="acc-chevron" aria-hidden="true">&#9662;</span>
+      </button>
+      <div class="acc-panel" id="panel-geoeconomics" role="region" aria-labelledby="trigger-geoeconomics" hidden>
+      <div class="acc-panel-inner">
 
       <div class="resource paper">
         <div class="icon">&#128218;</div>
@@ -260,6 +279,83 @@
           <a class="card-link" href="https://www.nber.org/papers/w29989" target="_blank" rel="noopener">Read the paper &rarr;</a>
         </div>
       </div>
+
+      </div>
+      </div>
+      </div>
+
+      <div class="acc-item">
+      <button class="acc-trigger" type="button" aria-expanded="false" aria-controls="panel-labor" id="trigger-labor">
+        <span class="acc-trigger-text">
+          <span class="kicker">Theme 04</span>
+          <span class="acc-heading">Labor</span>
+          <span class="acc-sub">The labor economics of military service &mdash; who serves, what service pays, and how it shapes lifetime earnings, education, and mobility for veterans.</span>
+        </span>
+        <span class="acc-chevron" aria-hidden="true">&#9662;</span>
+      </button>
+      <div class="acc-panel" id="panel-labor" role="region" aria-labelledby="trigger-labor" hidden>
+      <div class="acc-panel-inner">
+
+      <div class="resource paper">
+        <div class="icon">&#128196;</div>
+        <div>
+          <div class="tag-list" style="margin:0 0 8px;"><span class="tag">American Economic Review &middot; 1990</span></div>
+          <h3>Lifetime Earnings and the Vietnam Era Draft Lottery: Evidence from Social Security Administrative Records</h3>
+          <p class="paper-meta">Joshua D. Angrist &middot; <em>American Economic Review</em>, Vol. 80, No. 3, pp. 313&ndash;336</p>
+          <p>Uses the randomized Vietnam-era draft lottery as an instrument for veteran status, finding that white veterans earned roughly 15% less than comparable nonveterans well into the 1980s &mdash; a founding application of instrumental variables to military labor economics.</p>
+          <a class="card-link" href="https://economics.mit.edu/sites/default/files/publications/Angrist%201990%20-%20Lifetime%20Earnings%20and%20the%20Vietname%20.pdf" target="_blank" rel="noopener">Read the paper &rarr;</a>
+        </div>
+      </div>
+
+      <div class="resource paper">
+        <div class="icon">&#128196;</div>
+        <div>
+          <div class="tag-list" style="margin:0 0 8px;"><span class="tag">Econometrica &middot; 1998</span></div>
+          <h3>Estimating the Labor Market Impact of Voluntary Military Service Using Social Security Data on Military Applicants</h3>
+          <p class="paper-meta">Joshua D. Angrist &middot; <em>Econometrica</em>, Vol. 66, No. 2, pp. 249&ndash;288; NBER WP 5192</p>
+          <p>Compares applicants who enlisted to those who didn&rsquo;t to isolate the effect of voluntary service, finding large earnings gains while in uniform and modest post-service gains for nonwhite veterans &mdash; driven mainly by improved civilian employment prospects.</p>
+          <a class="card-link" href="https://www.nber.org/papers/w5192" target="_blank" rel="noopener">Read the paper &rarr;</a>
+        </div>
+      </div>
+
+      <div class="resource paper">
+        <div class="icon">&#128196;</div>
+        <div>
+          <div class="tag-list" style="margin:0 0 8px;"><span class="tag">NBER Working Paper 7452</span></div>
+          <h3>Going to War and Going to College: Did World War II and the G.I. Bill Increase Educational Attainment for Returning Veterans?</h3>
+          <p class="paper-meta">John Bound &amp; Sarah E. Turner &middot; NBER WP 7452 (1999); published in <em>Journal of Labor Economics</em>, 2002</p>
+          <p>Uses variation in draft exposure and cohort size across states to net out selection, finding that WWII service and the G.I. Bill produced a moderate net gain in postsecondary educational attainment for veterans.</p>
+          <a class="card-link" href="https://www.nber.org/papers/w7452" target="_blank" rel="noopener">Read the paper &rarr;</a>
+        </div>
+      </div>
+
+      <div class="resource paper">
+        <div class="icon">&#128196;</div>
+        <div>
+          <div class="tag-list" style="margin:0 0 8px;"><span class="tag">NBER Working Paper 32774</span></div>
+          <h3>World War II Service and the G.I. Bill: New Evidence on Selection and Veterans&rsquo; Outcomes from Linked Census Records</h3>
+          <p class="paper-meta">William J. Collins &amp; Ariell Zimran &middot; NBER WP 32774 (2024)</p>
+          <p>Links individual-level Census records across decades to separate who selected into service from what service caused, finding younger WWII veterans gained in both education and labor market outcomes relative to similar nonveterans.</p>
+          <a class="card-link" href="https://www.nber.org/papers/w32774" target="_blank" rel="noopener">Read the paper &rarr;</a>
+        </div>
+      </div>
+
+      <div class="resource paper">
+        <div class="icon">&#128196;</div>
+        <div>
+          <div class="tag-list" style="margin:0 0 8px;"><span class="tag">NBER Working Paper 33382</span></div>
+          <h3>The Impact of World War II Army Service on Income and Mobility in the 1960s by Ethnoracial Group</h3>
+          <p class="paper-meta">Sergio E. Barrera, Andreas Ferrara, Price V. Fishback &amp; Misty L. Heggeness &middot; NBER WP 33382 (January 2025)</p>
+          <p>Links 1940 Census, enlistment, and 1969 tax records to study how WWII Army service affected income and migration across racial and ethnic groups, finding that once selection is properly accounted for, the earnings and mobility effects of service were uneven &mdash; and often negative &mdash; across groups.</p>
+          <a class="card-link" href="https://www.nber.org/papers/w33382" target="_blank" rel="noopener">Read the paper &rarr;</a>
+        </div>
+      </div>
+
+      </div>
+      </div>
+      </div>
+
+      </div>
     </div>
   </section>
 
@@ -316,5 +412,6 @@
 </footer>
 
 <script src="assets/nav.js"></script>
+<script src="assets/accordion.js"></script>
 </body>
 </html>
