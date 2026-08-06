@@ -104,7 +104,7 @@
             <li>Ability to contribute research to the library</li>
             <li>Community mailing list</li>
           </ul>
-          <a class="btn btn-gold" href="contact.html">Join Free</a>
+          <a class="btn btn-gold" href="#apply">Join Free</a>
         </div>
         <div>
           <div class="callout">
@@ -115,34 +115,103 @@
     </div>
   </section>
 
-  <section>
+  <section id="apply">
     <div class="container">
       <div class="section-head">
-        <span class="kicker">How to Join</span>
-        <h2>A simple process.</h2>
+        <span class="kicker">Membership Application</span>
+        <h2>Apply to join ENSA.</h2>
+        <p>Fields marked with an asterisk (*) are required. This form is a design placeholder for the mockup and doesn&rsquo;t submit anywhere yet &mdash; there&rsquo;s no application fee or dues at any step.</p>
       </div>
-      <ul class="timeline">
-        <li>
-          <div class="year">1. Reach Out</div>
-          <p>Email <a href="mailto:info@ensa.us.com">info@ensa.us.com</a> or use the <a href="contact.html">contact form</a> &mdash; there&rsquo;s no application fee or dues at any step.</p>
-        </li>
-        <li>
-          <div class="year">2. Confirm Eligibility</div>
-          <p>We&rsquo;ll confirm your institutional affiliation and research focus fit ENSA&rsquo;s membership.</p>
-        </li>
-        <li>
-          <div class="year">3. Join the Community</div>
-          <p>Once confirmed, you&rsquo;ll be added to the membership roster, mailing list, and voting rolls for board elections &mdash; free of charge.</p>
-        </li>
-      </ul>
-    </div>
-  </section>
 
-  <section class="cta-band">
-    <div class="container">
-      <h2>Ready to join ENSA?</h2>
-      <p>Membership is free &mdash; send us a note and we&rsquo;ll get you set up.</p>
-      <a class="btn btn-gold" href="contact.html">Join for Free</a>
+      <form onsubmit="return false;">
+        <div class="form-grid">
+
+          <div class="full form-section-label">Applicant Information</div>
+          <div>
+            <label for="app-fname">First Name *</label>
+            <input type="text" id="app-fname" name="app-fname" required>
+          </div>
+          <div>
+            <label for="app-lname">Last Name *</label>
+            <input type="text" id="app-lname" name="app-lname" required>
+          </div>
+          <div>
+            <label for="app-email">Email *</label>
+            <input type="email" id="app-email" name="app-email" required>
+          </div>
+          <div>
+            <label for="app-phone">Phone</label>
+            <input type="text" id="app-phone" name="app-phone">
+          </div>
+
+          <div class="full form-section-label">Affiliation Information</div>
+          <div class="full">
+            <label>Membership Status *</label>
+            <div class="radio-row">
+              <label class="radio-option"><input type="radio" name="app-status" value="professional" required> Professional</label>
+              <label class="radio-option"><input type="radio" name="app-status" value="student"> Student</label>
+            </div>
+          </div>
+          <div>
+            <label for="app-org">Current Employer / Organization</label>
+            <input type="text" id="app-org" name="app-org">
+          </div>
+          <div>
+            <label for="app-dept">Department or Program</label>
+            <input type="text" id="app-dept" name="app-dept">
+          </div>
+          <div class="full">
+            <label for="app-title">Title</label>
+            <input type="text" id="app-title" name="app-title">
+          </div>
+
+          <div class="full form-section-label">Education</div>
+          <div>
+            <label for="app-degree">Highest Degree Obtained</label>
+            <input type="text" id="app-degree" name="app-degree">
+          </div>
+          <div>
+            <label for="app-field">Field</label>
+            <input type="text" id="app-field" name="app-field">
+          </div>
+          <div class="full">
+            <label for="app-school">School</label>
+            <input type="text" id="app-school" name="app-school">
+          </div>
+
+          <div class="full form-section-label">Interests in National Security Economics</div>
+          <div class="full">
+            <label for="app-research">Your current research in national security economics</label>
+            <textarea id="app-research" name="app-research"></textarea>
+          </div>
+          <div class="full">
+            <label>Areas of Interest (select all that apply)</label>
+            <div class="checkbox-grid">
+              <label class="checkbox-option"><input type="checkbox" name="app-interest" value="terrorism"> Economic Analysis of Terrorism</label>
+              <label class="checkbox-option"><input type="checkbox" name="app-interest" value="strategy"> Economics and Strategy</label>
+              <label class="checkbox-option"><input type="checkbox" name="app-interest" value="public-finance"> Public Finance and Military Expenditures</label>
+              <label class="checkbox-option"><input type="checkbox" name="app-interest" value="labor"> Labor and Military Manpower</label>
+              <label class="checkbox-option"><input type="checkbox" name="app-interest" value="acquisition"> Industrial Organization and Acquisition</label>
+              <label class="checkbox-option"><input type="checkbox" name="app-interest" value="health"> Health Economics and DoD/VA Health Programs</label>
+              <label class="checkbox-option"><input type="checkbox" name="app-interest" value="other"> Other</label>
+            </div>
+          </div>
+          <div class="full">
+            <label for="app-other">If &ldquo;Other,&rdquo; please specify</label>
+            <input type="text" id="app-other" name="app-other">
+          </div>
+          <div class="full">
+            <label for="app-serve">How can ENSA best serve you?</label>
+            <textarea id="app-serve" name="app-serve"></textarea>
+          </div>
+
+          <div class="full">
+            <button type="submit" class="btn btn-gold">Submit Application</button>
+            <p class="form-note">We typically respond within a few business days.</p>
+          </div>
+
+        </div>
+      </form>
     </div>
   </section>
 
