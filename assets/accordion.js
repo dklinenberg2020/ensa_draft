@@ -17,7 +17,10 @@ document.addEventListener("DOMContentLoaded", function () {
         trigger.setAttribute("aria-expanded", "true");
         panel.hidden = false;
         requestAnimationFrame(function () {
-          trigger.scrollIntoView({ behavior: "smooth", block: "start" });
+          var header = document.querySelector("header.site-header");
+          var offset = (header ? header.offsetHeight : 0) + 16;
+          var top = trigger.getBoundingClientRect().top + window.pageYOffset - offset;
+          window.scrollTo({ top: top, behavior: "smooth" });
         });
       }
     });
